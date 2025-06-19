@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Caches and test outputs
+.pytest_cache/
+*.log
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Solidity build artifacts (if you use truffle, hardhat, or foundry in the future)
+build/
+artifacts/
+cache/
+
+# Node modules (if you use JS tooling in the future)
+node_modules/
+
+# Ignore secrets/configs (if any)
+*.env
+.env.*
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Ignore test contract outputs (if any)
+test_contracts/*.bin
+test_contracts/*.abi
+
+# Ignore main config if you want (uncomment if needed)
+# analyzer_config.yaml

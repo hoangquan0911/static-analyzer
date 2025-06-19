@@ -1,0 +1,21 @@
+auto_load_plugins: true
+custom_settings:
+  example_setting: example_value
+detector_severity_threshold: LOW
+disabled_detectors: []
+enabled_detectors: []
+ignore_patterns:
+- node_modules/
+- .git/
+- build/
+- dist/
+include_patterns:
+- '*.sol'
+max_file_size_mb: 10
+max_workers: 4
+output_format: rich
+parallel_analysis: false
+plugins_dir: plugins
+show_file_breakdown: true
+show_progress: true
+show_summary: true
