@@ -32,10 +32,10 @@ This tool analyzes Solidity smart contracts for security vulnerabilities, best p
 
 ## ✨ Features
 
-- **Security Analysis**: Detects reentrancy, access control, signature replay, unchecked calls, and more.
-- **Best Practices**: Flags missing events, poor error messages, redundant code, etc.
-- **Gas Optimization**: Identifies unbounded loops and other inefficiencies.
-- **Documentation**: Checks for missing docs and poor naming.
+- **Security Analysis**: Detects reentrancy, access control, signature replay, unchecked calls, and more (20 detectors).
+- **Best Practices**: Flags missing events, poor error messages, redundant code, etc. (5 detectors).
+- **Gas Optimization**: Identifies unbounded loops and other inefficiencies (1 detector).
+- **Documentation**: Checks for missing docs and poor naming (3 detectors).
 - **Plugin System**: Add your own detectors or output formatters.
 - **Rich Output**: Table, JSON, and custom formats.
 - **Comprehensive Testing**: Pytest-based suite for all detectors.
@@ -128,7 +128,7 @@ print(collector)  # Uses __str__ for beautiful output
 
 ## 🏷️ Detectors & Categories
 
-### Security Detectors
+### Security Detectors (20 detectors)
 - Reentrancy
 - Access Control
 - Flash Loan
@@ -146,18 +146,21 @@ print(collector)  # Uses __str__ for beautiful output
 - Oracle Manipulation
 - Signature Replay
 - Unchecked Call
+- Signature in Loop
+- Oracle Signature Reuse
+- Oracle Price Manipulation
 
-### Best Practices Detectors
+### Best Practices Detectors (5 detectors)
 - Events
 - Type Cast
 - Modifier
 - Redundant Code
 - Error Messages
 
-### Gas Optimization Detectors
+### Gas Optimization Detectors (1 detector)
 - Gas Limit
 
-### Documentation Detectors
+### Documentation Detectors (3 detectors)
 - Hardcoded
 - Documentation
 - Naming
@@ -278,20 +281,22 @@ disabled_detectors:
 
 ## 🧪 Testing
 
-### Run All Tests
+### Run Tests
 ```bash
-python main.py --test
-python main.py --test-comprehensive
-```
+# Run comprehensive test suite (recommended)
+python main.py test-comprehensive
 
-### Run Specific Test File
-```bash
-python -m pytest tests/test_my_plugin.py -v
+# Run specific test file with pytest
+python -m pytest tests/test_comprehensive_detectors.py -v
+
+# Run all tests with pytest
+python -m pytest tests/ -v
 ```
 
 ### Add Your Own Tests
 - Place test files in `tests/`
 - Use `pytest` for new detectors/plugins
+- Follow the existing test patterns in `test_comprehensive_detectors.py`
 
 ---
 
